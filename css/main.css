@@ -1,0 +1,37 @@
+body {
+	background: #EEEEEE;    
+	margin: 0 auto; 		
+}
+
+nav {
+	height: 125px;
+	border-bottom: 2px solid;
+}
+
+.logo  {
+	display: inline-block;
+	position: absolute;
+	top:33px;
+	left: 25px;
+}
+
+.logo p {
+	display: inline-block;
+}
+
+nav ul {
+	position: absolute;
+	left: 500px;
+	top: 35px;
+}
+
+nav li {
+	display: inline-block;
+	padding-left: 40px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: black;
+}
+
