@@ -1,6 +1,8 @@
 body {
 	background: #EEEEEE;    
-	margin: 0 auto; 		
+	margin: 0 auto; 
+	font-family: 'Pacifico', cursive;
+	font-family: 'Open Sans', sans-serif;		
 }
 
 nav {
@@ -11,12 +13,18 @@ nav {
 .logo  {
 	display: inline-block;
 	position: absolute;
-	top:33px;
-	left: 25px;
+	top:25px;
+	left: 45px;
+}
+
+.logo i {
+	color: #F986A5;
 }
 
 .logo p {
 	display: inline-block;
+	font-family: 'Pacifico', cursive;
+	font-size: 20px;
 }
 
 nav ul {
@@ -34,4 +42,162 @@ nav li a {
 	text-decoration: none;
 	color: black;
 }
+
+/**Header**/
+
+header {
+	text-align: center;
+}
+
+header h1 {
+	font-size: 20px;
+}
+
+header span {
+	color: #F986A5;
+}
+
+header p {
+	font-size: 15px;
+}
+
+header img {
+	width: 95%;
+	height: 300px;
+	border-radius: 10px;
+}
+
+/**About**/
+.about {
+	font-size: 12px;
+}
+
+.about div {
+	padding: 5px;
+	margin-left: 50px;
+}
+
+.about div:first-child {
+	width: 40%;
+	float: left;
+}
+
+.about div:last-child {
+	width: 40%;
+	float: left;
+	margin-bottom: 25px;
+}
+
+.about div h2 {
+	font-family:'Pacifico', cursive;
+	color: #F986A5;
+	text-align: center;
+}
+
+/**Photos**/
+
+.images {
+	margin-left: 30px;
+}
+
+.images img {
+	width: 150px;
+	border-radius: 15px;
+	border-bottom: 1px solid #AFAEAD;
+}
+
+.images li {
+	list-style: none;
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.images p {
+	color: #F986A5;
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	font-size: 25px;
+}
+
+/**Footer**/
+footer {
+	background: #000000;
+	height: 400px;
+}
+
+footer form {
+	padding-top: 75px;
+	padding-left: 25px;
+	display: inline-block;
+}
+
+input {
+	display: block;
+	margin: 10px;
+}
+
+.text {
+	width: 350px;
+	background: #EEEEEE;
+}
+
+textarea {
+	width: 350px;
+	height: 100px;
+	background: #EEEEEE;
+	margin-left: 10px;
+}
+
+footer p {
+	font-family:'Pacifico', cursive;
+	color: #F986A5;
+	margin-left: 10px;
+}
+
+
+footer a {
+	color: white;
+	text-decoration: none;
+	margin-left: 10px;
+	display: block;
+}
+
+footer ul {
+	float: right;
+	margin: 200px 40px 0 0;
+
+}
+
+footer li {
+	display: inline-block;
+	padding-left: 10px;
+}
+
+footer a {
+	color: #F986A5;
+}
+
+.send {
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
